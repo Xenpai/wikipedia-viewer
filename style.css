@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body {
+  background-color: #0d708b;
+  font-family: "Ubuntu", sans-serif;
+}
+.container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50%;
+  width: auto;
+}
+.container .random-article {
+  text-align: center;
+  color: #FFF;
+  font-size: 48px;
+  transition: color 1s;
+}
+.container .random-article:hover {
+  cursor: pointer;
+  color: #03053c;
+}
+.container .search-bar {
+  width: 200px;
+  height: 30px;
+  border: solid 2px;
+  border-color: #049990;
+  border-radius: 8px;
+  transition: border-color 1s;
+}
+.container .search-bar:focus {
+  border-color: #bd5408;
+}

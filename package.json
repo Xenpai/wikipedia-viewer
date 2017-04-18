@@ -1,0 +1,29 @@
+{
+  "name": "wikipedia-viewer",
+  "version": "0.0.0",
+  "description": "For FreeCodeCamp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xenpai/wikipedia-viewer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xenpai/wikipedia-viewer/issues"
+  },
+  "homepage": "https://github.com/Xenpai/wikipedia-viewer#readme",
+  "dependencies": {
+    "handlebars": "^4.0.6"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "handlebars-loader": "^1.4.0",
+    "path": "^0.12.7",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1"
+  }
+}
